@@ -5,7 +5,7 @@ export default function Card({ moment }) {
 
   return (
     <div className="flex-none w-[400px] group cursor-pointer">
-      <div className="relative overflow-hidden rounded-lg">
+      <div className="relative overflow-hidden">
         <img 
           src={moment.fields.image?.fields.file.url} 
           alt={moment.fields.title}
@@ -13,8 +13,6 @@ export default function Card({ moment }) {
           height={280}
           className="w-full h-[280px] object-cover transition-transform duration-500 group-hover:scale-110"
         />
-        
-        <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
       </div>
       
       <div className="mt-5">

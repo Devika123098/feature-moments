@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@font-face {
+  font-family: 'CabinetGrotesk';
+  src: url('./assets/CabinetGrotesk-Variable.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: 'CabinetGrotesk', sans-serif;
+}
